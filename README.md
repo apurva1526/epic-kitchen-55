@@ -89,6 +89,7 @@ $ python example.py
 
 # Credits
 
-```Just made below repo colab ready 
+Just made below repo colab ready 
+```
 https://github.com/guglielmocamporese/epic-kitchens-dataset-pytorch
 ```
