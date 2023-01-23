@@ -1,3 +1,4 @@
 annotations
 *ipynb*
 __pycache__
+.idea
