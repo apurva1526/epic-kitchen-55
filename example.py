@@ -5,13 +5,13 @@ from dataloaders import get_dataloaders
 class Args(object):
     def __init__(self):
         self.features_paths = {
-            'ek55': './epic-kitchens-dataset-pytorch/data/ek55',
-            'ek100': './annotations/epic-kitchens-100-annotations/features',
-        }
+                    'ek55': '/content/drive/MyDrive/features_epic55/ek55',
+                    'ek100': './annotations/epic-kitchens-100-annotations/features',
+                }
         self.frames_paths = {
-            'ek55': './epic-kitchens-dataset-pytorch/rgb_frames',
-            'ek100': './annotations/epic-kitchens-100-annotations/frames',
-        }
+                    'ek55': '/content/drive/MyDrive/rgb_frames',
+                    'ek100': './annotations/epic-kitchens-100-annotations/frames',
+                }
         self.ek_version = 'ek55' # 'ek55' or 'ek100'
         self.fps = 4.0
         
